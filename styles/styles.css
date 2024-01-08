@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
-/* font-family: 'Inter', sans-serif;
+/* ;
 font-family: 'Merriweather', serif; */
 
 * {
@@ -58,12 +58,11 @@ main {
 /* 65% OFF categories styles */
 main .cat {
     text-align: center;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
 }
 
 main .cat .cat-title-large {
     color: #F00;
-
     font-size: 88px;
     font-weight: 700;
 
@@ -82,4 +81,78 @@ main .cat .cat-title-medium {
     color: #070211;
     font-size: 48px;
     font-weight: 700;
+}
+
+/* Categories 1 related styles */
+
+.cat-banner-1 {
+    max-width: 82.2%;
+    width: 1320px;
+    margin: 50px auto;
+    font-family: Inter;
+    color: #fff;
+    background: url('../assets/images/Vectorrr.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+
+}
+
+.cat-banner-container {
+    width: 820px;
+    height: 600px;
+    padding: 126px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    border-radius: 16px;
+}
+
+.cat-banner-title {
+    font-size: 60px;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 24px;
+}
+
+.cat-banner-desc {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.btn-primary {
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* Category Banner Related styles */
+
+.cat-banner-2 {
+    max-width: 82.2%;
+    width: 1320px;
+    margin: 50px auto;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    padding: 100px 350px;
+    font-family: Inter;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+}
+
+.cat-banner-2 .red-text {
+    color: #F00;
+}
+.cat-banner-2 .btn-red {
+    margin-top: 64px;
+    background-color: #F00;
+    padding: 16px 32px;
+
 }
