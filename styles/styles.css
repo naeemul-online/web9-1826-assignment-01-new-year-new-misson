@@ -146,6 +146,7 @@ main .cat .cat-title-medium {
     font-weight: 600;
     text-align: center;
     line-height: 50px;
+    border-radius: 16px;
 }
 
 .cat-banner-2 .red-text {
