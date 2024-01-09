@@ -327,11 +327,11 @@ main .cat .cat-title-medium {
     max-width: 1320px;
     display: flex;
     flex-wrap: wrap;
+    gap: 5px;
     justify-content: space-between;
 }
 
 .portfolio-images .image {
-    padding: 20px;
     margin: 0;
     width: 33%;
 }
