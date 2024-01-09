@@ -12,6 +12,7 @@ body {
     width: 100%;
     height: 100vh;
 }
+
 /* Scrollbar Remove CSS */
 
 body::-webkit-scrollbar {
@@ -22,7 +23,6 @@ body::-webkit-scrollbar {
 /* Banner Related Styles Section */
 
 header {
-    max-width: 82.2%;
     width: 1320px;
     margin: 50px auto;
     color: #fff;
@@ -90,7 +90,6 @@ main .cat .cat-title-medium {
 /* Categories  banner 1 related styles */
 
 .cat-banner-1 {
-    max-width: 82.2%;
     width: 1320px;
     margin: 50px auto;
     font-family: Inter;
@@ -142,7 +141,6 @@ main .cat .cat-title-medium {
 /* Category Banner 2 Related styles */
 
 .cat-banner-2 {
-    max-width: 82.2%;
     width: 1320px;
     margin: 50px auto;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
@@ -167,7 +165,6 @@ main .cat .cat-title-medium {
 
 /* Category banner 3 related styles */
 .cat-banner3 {
-    max-width: 82.2%;
     width: 1320px;
     margin: 50px auto;
     font-family: Inter;
@@ -233,7 +230,6 @@ main .cat .cat-title-medium {
 
 
 .cat-banner4 {
-    max-width: 82.2%;
     width: 1320px;
     margin: 50px auto;
 }
@@ -274,7 +270,6 @@ main .cat .cat-title-medium {
 /* Category banner 5 section related css */
 
 .cat-banner5 {
-    max-width: 82.2%;
     width: 1320px;
     height: 660px;
     margin: 50px auto;
@@ -312,7 +307,6 @@ main .cat .cat-title-medium {
 /* Portfolio Section Related Styles */
 
 .portfolio {
-    max-width: 82.2%;
     width: 1320px;
     margin: 50px auto;
 
@@ -324,13 +318,11 @@ main .cat .cat-title-medium {
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 40px;
-    /* 160% */
+
 
 }
 
 .portfolio-images {
-    max-width: 82.2%;
-    max-width: 1320px;
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
@@ -345,8 +337,7 @@ main .cat .cat-title-medium {
 /* News Letter related styles */
 
 .newesletter {
-    max-width: 82.2%;
-    max-width: 1320px;
+    width: 1320px;
     margin: 50px auto;
     padding: 80px;
     height: 616px;
@@ -410,8 +401,7 @@ footer {
 }
 
 .contact {
-    max-width: 82.2%;
-    max-width: 1320px;
+    width: 1320px;
     margin: 50px auto;
     padding: 120px 0;
     display: flex;
@@ -444,10 +434,8 @@ footer {
     align-items: center;
 }
 
-hr {
-
-    max-width: 82.2%;
-    max-width: 1320px;
+hr {    
+    width: 1320px;
     margin: 0 auto;
     height: 1px;
     border: none;
@@ -464,8 +452,7 @@ hr {
 }
 
 .copyright {
-    max-width: 82.2%;
-    max-width: 1320px;
+    width: 1320px;
     margin: 0 auto;
     color: #FFF;
     font-family: Inter;
@@ -478,5 +465,6 @@ hr {
 
 .copyright a {
     text-decoration: none;
-    color: #FFF;;
+    color: #FFF;
+    ;
 }
