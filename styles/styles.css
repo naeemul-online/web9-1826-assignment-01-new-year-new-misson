@@ -469,3 +469,8 @@ hr {
     justify-content: space-around;
     padding: 120px 0;
 }
+
+.copyright a {
+    text-decoration: none;
+    color: #FFF;;
+}
