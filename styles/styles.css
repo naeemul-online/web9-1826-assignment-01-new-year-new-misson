@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
-/* ;
-font-family: 'Merriweather', serif; */
 
+/* Common Styles Section */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Common Styles Section */
 body {
     width: 100%;
     height: 100vh;
@@ -84,7 +82,7 @@ main .cat .cat-title-medium {
     font-weight: 700;
 }
 
-/* Categories 1 related styles */
+/* Categories  banner 1 related styles */
 
 .cat-banner-1 {
     max-width: 82.2%;
@@ -136,7 +134,7 @@ main .cat .cat-title-medium {
     border-radius: 10px;
 }
 
-/* Category Banner Related styles */
+/* Category Banner 2 Related styles */
 
 .cat-banner-2 {
     max-width: 82.2%;
@@ -339,6 +337,7 @@ main .cat .cat-title-medium {
 }
 
 /* News Letter related styles */
+
 .newesletter {
     max-width: 82.2%;
     max-width: 1320px;
