@@ -97,6 +97,8 @@ main .cat .cat-title-medium {
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 16px;
+    display: flex;
+    align-items: center;
 
 }
 
@@ -174,10 +176,47 @@ main .cat .cat-title-medium {
     gap: 80px;
 }
 
+.sec1-title1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.sec1-title2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
 .banner3-sec2 img {
     border: 15px solid red;
     border-radius: 50%;
     padding: 50px;
+}
+
+.sec3-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.sec3-desc {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 16px 0;
+}
+
+.banner3-sec3 {
+    margin-top: 50px;
 }
 
 .banner3-sec1,
@@ -190,6 +229,8 @@ main .cat .cat-title-medium {
 
 
 .cat-banner4 {
+    max-width: 82.2%;
+    width: 1320px;
     margin: 50px auto;
 }
 
@@ -226,14 +267,206 @@ main .cat .cat-title-medium {
     margin-bottom: 32px;
 }
 
-/* Category banner 4 related css */
+/* Category banner 5 section related css */
 
-.cat-banner4 {
+.cat-banner5 {
     max-width: 82.2%;
     width: 1320px;
-    position: relative;
+    height: 660px;
+    margin: 50px auto;
 }
 
-.bg-imgs .image1 {
+.cat-banner5 .banner5-container {
+    position: relative;
+    width: 1320px;
+    height: 660px;
+}
 
+.banner5-container .image1 {
+    position: absolute;
+    bottom: 0;
+}
+
+.cat-banner5 .banner5-container .image2 {
+    position: absolute;
+    right: 0px;
+    bottom: 220px;
+}
+
+.cat-banner5 .banner5-container .image3 {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+}
+
+.cat-banner5 .banner5-container .image4 {
+    position: absolute;
+    right: 280px;
+    bottom: 220px;
+}
+
+/* Portfolio Section Related Styles */
+
+.portfolio {
+    max-width: 82.2%;
+    width: 1320px;
+    margin: 50px auto;
+
+}
+
+.portfolio-desc {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    /* 160% */
+
+}
+
+.portfolio-images {
+    max-width: 82.2%;
+    max-width: 1320px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio-images .image {
+    padding: 20px;
+    margin: 0;
+    width: 33%;
+}
+
+/* News Letter related styles */
+.newesletter {
+    max-width: 82.2%;
+    max-width: 1320px;
+    margin: 50px auto;
+    padding: 80px;
+    height: 616px;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+
+.newsletter-title {
+    padding: 20px 0;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+
+}
+
+.newsletter-desc {
+    padding: 0 160px 20px 160px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#email {
+    margin: 0;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    padding: 25px 150px;
+    border: none;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn-subscriber {
+    margin: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    padding: 25px 50px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer Section */
+
+footer {
+    background: #070211;
+}
+
+.contact {
+    max-width: 82.2%;
+    max-width: 1320px;
+    margin: 50px auto;
+    padding: 120px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.address {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.mobile-address {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.mobile-address .phone-number {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.mobile-address .web-link {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+hr {
+
+    max-width: 82.2%;
+    max-width: 1320px;
+    margin: 0 auto;
+    height: 1px;
+    border: none;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.social-icons {
+    text-align: center;
+    padding: 48px 0;
+}
+
+.social-icons img {
+    padding: 0 20px;
+}
+
+.copyright {
+    max-width: 82.2%;
+    max-width: 1320px;
+    margin: 0 auto;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    padding: 120px 0;
 }
